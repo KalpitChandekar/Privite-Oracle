@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --font-winter-insight: var(--font-winter-insight);
+  --font-yrsa: var(--font-yrsa);
+}
+
 /* Apply Roboto by default to the body */
 body {
   font-family: "Roboto", sans-serif;
+}
+
+/* Apply Winter Insight to specific areas */
+.font-winter-insight {
+  font-family: var(--font-winter-insight), serif;
 }
 
 /* Apply Yrsa to specific areas */

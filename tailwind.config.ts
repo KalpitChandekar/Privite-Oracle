@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        hero: "url('/hero.png')",
+      },
     },
   },
   plugins: [],

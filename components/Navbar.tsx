@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="my-5 text-[#09B3B0] flex items-center justify-between max-w-6xl mx-auto">
+    <div className="pt-5 text-[#09B3B0] flex items-center justify-between max-w-6xl mx-auto">
       <div>
         <Image
           src="/logo.png"
@@ -27,7 +27,7 @@ const Navbar = () => {
         <li className="hover:text-[#FF9F00] border-transparent border-b-2 hover:border-[#FF9F00]">
           <a href="#">Register as an Advisor</a>
         </li>
-        <li>
+        <li className="bg-[#09B3B0] rounded-2xl text-white p-1">
           <a href="#">
             <Search />
           </a>
