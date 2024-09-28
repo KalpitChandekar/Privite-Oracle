@@ -12,6 +12,46 @@ const FeatureCard = ({ icon: Icon, title, description }: any) => (
   </div>
 );
 
+const FAQs = () => (
+  <div className="mt-20">
+    <h1 className="text-center mb-10 text-4xl">
+      Love, Relationship, and Life FAQs
+    </h1>
+    <p className="">
+      You've finally decided to take the leap and talk to a psychic (great!),
+      but perhaps you're still feeling a bit confused about online readings,
+      whether or not they are safe, or how to choose the best Keen psychic to
+      meet your needs. We're here to put your mind at ease so that you can get
+      the most out of your reading - every single time.
+    </p>
+    <ul className=" my-6 grid grid-cols-2 gap-4 text-[#008080]">
+      <li>
+        <a href="/">How do I know someone is thinking about me?</a>
+      </li>
+      <li>
+        <a href="/">What do I need to know before my first reading?</a>
+      </li>
+      <li>
+        <a href="/">How do I get through a breakup?</a>
+      </li>
+      <li>
+        <a href="/">What are the different types of psychic readings??</a>
+      </li>
+      <li>
+        <a href="/">How do I get the best reading?</a>
+      </li>
+      <li>
+        <a href="/">How can I start a reading for free?</a>
+      </li>
+    </ul>
+    <div className="flex justify-center items-center">
+      <button className="py-2 w-36 text-[#09B3B0] border-[#09B3B0] border-2 rounded-lg">
+        Reading 101
+      </button>
+    </div>
+  </div>
+);
+
 const WhyOracle = () => {
   const features = [
     {
@@ -44,6 +84,9 @@ const WhyOracle = () => {
           <FeatureCard key={index} {...feature} />
         ))}
       </div>
+      <FAQs />
+      <FAQs />
+      <FAQs />
     </div>
   );
 };
