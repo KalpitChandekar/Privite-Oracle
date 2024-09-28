@@ -1,6 +1,7 @@
 import Advisor from "@/components/Advisor";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import WhyOracle from "@/components/WhyOracle";
 
 const Home = () => {
   return (
@@ -11,6 +12,9 @@ const Home = () => {
       </div>
       <div className="max-w-7xl mx-auto bg-advisor bg-cover bg-no-repeat bg-center">
         <Advisor />
+      </div>
+      <div className="bg-[#EDF8F9]">
+        <WhyOracle />
       </div>
     </div>
   );
