@@ -7,7 +7,7 @@ import WhyOracle from "@/components/WhyOracle";
 const Home = () => {
   return (
     <div className="">
-      <div className="max-w-7xl mx-auto bg-hero bg-cover bg-no-repeat bg-center">
+      <div className="max-w-7xl mx-auto bg-hero bg-cover bg-no-repeat bg-center md:px-0 px-2">
         <Navbar />
         <Hero />
       </div>

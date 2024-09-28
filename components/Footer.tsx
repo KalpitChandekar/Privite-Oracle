@@ -4,7 +4,6 @@ import {
   Instagram,
   Linkedin,
   Twitter,
-  X,
   Youtube,
 } from "lucide-react";
 import Image from "next/image";
@@ -12,9 +11,9 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-[#09B3B0] max-w-7xl mx-auto py-10">
-      <div className="flex justify-between max-w-5xl mx-auto text-white">
-        <div className="w-3/5">
+    <div className="bg-[#09B3B0] max-w-7xl mx-auto py-10 px-2 md:px-0">
+      <div className="md:flex justify-between max-w-5xl mx-auto text-white">
+        <div className="md:w-3/5 mb-16 md:mb-0">
           <div className="flex gap-4 items-center">
             <Image src="/footer.png" alt="logo" width={102} height={63} />
             <div>
@@ -25,12 +24,12 @@ const Footer = () => {
           <h1 className="mb-6 text-sm mt-4">Copyright © 2024 · Private Oracle ·</h1>
           <div className="flex uppercase gap-4">
             <h1>privacy policy</h1>
-            <span className="">|</span>
+            <span className="hidden md:block">|</span>
             <h1>terms and conditions</h1>
             <h1>contact</h1>
           </div>
         </div>
-        <div className="w-2/5">
+        <div className="md:w-2/5">
           <h1 className="text-2xl">Keep in Touch</h1>
           <div className="flex gap-3 mt-4 mb-6">
             <Facebook />

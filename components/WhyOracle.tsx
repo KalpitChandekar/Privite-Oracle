@@ -17,14 +17,14 @@ const FAQs = () => (
     <h1 className="text-center mb-10 text-4xl">
       Love, Relationship, and Life FAQs
     </h1>
-    <p className="">
+    <p className="text-center md:text-start">
       You've finally decided to take the leap and talk to a psychic (great!),
       but perhaps you're still feeling a bit confused about online readings,
       whether or not they are safe, or how to choose the best Keen psychic to
       meet your needs. We're here to put your mind at ease so that you can get
       the most out of your reading - every single time.
     </p>
-    <ul className=" my-6 grid grid-cols-2 gap-4 text-[#008080]">
+    <ul className=" my-6 grid md:grid-cols-2 gap-4 text-[#008080]">
       <li>
         <a href="/">How do I know someone is thinking about me?</a>
       </li>
@@ -75,7 +75,7 @@ const WhyOracle = () => {
   ];
 
   return (
-    <div className="py-14 max-w-4xl mx-auto">
+    <div className="py-14 max-w-4xl mx-auto md:px-0 px-2 ">
       <h1 className="text-center mb-14 text-5xl uppercase">
         why private oracle?
       </h1>
