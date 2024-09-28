@@ -75,7 +75,7 @@ const WhyOracle = () => {
   ];
 
   return (
-    <div className="py-14 max-w-6xl mx-auto">
+    <div className="py-14 max-w-4xl mx-auto">
       <h1 className="text-center mb-14 text-5xl uppercase">
         why private oracle?
       </h1>

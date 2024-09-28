@@ -13,7 +13,7 @@ const Home = () => {
       <div className="max-w-7xl mx-auto bg-advisor bg-cover bg-no-repeat bg-center">
         <Advisor />
       </div>
-      <div className="bg-[#EDF8F9]">
+      <div className="bg-[#EDF8F9] max-w-7xl mx-auto ">
         <WhyOracle />
       </div>
     </div>
